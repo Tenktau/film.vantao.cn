@@ -1,0 +1,48 @@
+copyright = "© Wantao Liu"
+defaultContentLanguage = "zh"
+disableKinds = ["taxonomy", "term"]
+enableRobotsTXT = true
+languageCode = "zh"
+timeZone = "Asia/Shanghai"
+timeout = "120s"
+title = "Gallery of Wantao Liu"
+
+[params]
+  defaultTheme = "dark"
+  description = "Gallery of Wantao Liu, who is a photography amateur."
+  title = "Gallery of Wantao Liu"
+  [params.author]
+    email = "hi@vantao.cn"
+    name = "Wantao Liu"
+  [params.socialIcons]
+    # facebook = "https://www.facebook.com/"
+    # instagram = "https://www.instagram.com/"
+    github = "https://github.com/tenktau"
+    # youtube = "https://www.youtube.com/"
+    email = "mailto:hi@vantao.cn"
+    #website = "https://example.com"
+    #mastodon = "https://example.com"
+    #pixelfed = "https://example.com"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/tenktau"
+    weight = 3
+
+[services]
+  [services.rss]
+    limit = 100
