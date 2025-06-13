@@ -7,7 +7,10 @@
 
 html {
   line-height: 1.5;
-  font-family: "PingFang SC", "Noto Sans CJK", "Source Han Sans", "Microsoft Yahei", source-han-sans-simplified-c, sans-serif;
+  /* font-family: "PingFang SC", "Noto Sans CJK", "Source Han Sans", "Microsoft Yahei", source-han-sans-simplified-c, sans-serif; */
+  font-family: "Noto Serif SC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   -moz-tab-size: 4;
